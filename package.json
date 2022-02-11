@@ -1,0 +1,41 @@
+{
+    "name": "vucar",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.js",
+        "watch": "sass src/resources/scss/app.scss:src/public/css/app.css src/resources/scss/shop.scss:src/public/css/shop.css src/resources/scss/detail.scss:src/public/css/detail.css src/resources/scss/interior.scss:src/public/css/interior.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pepongucte266/vucar-web.git"
+    },
+    "keywords": [
+        "vucar",
+        "web",
+        "nodejs"
+    ],
+    "author": "vtson",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/pepongucte266/vucar-web/issues"
+    },
+    "homepage": "https://github.com/pepongucte266/vucar-web#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.1",
+        "connect-mongo": "^4.6.0",
+        "express": "^4.17.2",
+        "express-handlebars": "^6.0.2",
+        "express-session": "^1.17.2",
+        "gridfs-stream": "^1.1.1",
+        "hbs": "^4.2.0",
+        "mongoose": "^6.1.8",
+        "node-sass": "^7.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}

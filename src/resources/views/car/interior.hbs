@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+      <title>Interior</title>
+      <link rel="stylesheet" href="/css/inerior.css">
+  </head>
+
+  <body>
+      {{#with car}}
+      <div class="wrapper" style="width:80%; height: 700px; margin: 10px auto; margin-top: 100px;">
+        <a-scene id="scene" embedded>
+            <a-sky src="{{vrimage}}"> </a-sky>
+        </a-scene>
+      </div>
+      {{/with}}
+
+  </body>
+
+</html>
